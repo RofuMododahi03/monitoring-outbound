@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.form-box {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.form-box input, .form-box select {
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  padding: 8px 15px;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background: #2c3e50;
+  color: white;
+}
+
+.ready { color: green; font-weight: bold; }
+.empty { color: red; font-weight: bold; }
+.recharge { color: orange; font-weight: bold; }

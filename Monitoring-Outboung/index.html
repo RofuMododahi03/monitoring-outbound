@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Monitoring Outbound</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Monitoring Proses Outbound</h1>
+<p class="subtitle">
+  Sistem monitoring keterangan picking untuk mempermudah Check & Pack dan Shipping
+</p>
+
+<div class="form-box">
+  <h3>Input Data Barang</h3>
+  <input type="text" id="nama" placeholder="Nama Barang">
+  <input type="text" id="lokasi" placeholder="Lokasi Barang">
+  <select id="status">
+    <option value="">-- Pilih Keterangan Picking --</option>
+    <option value="Ready">Ready</option>
+    <option value="Stok Kosong">Stok Kosong</option>
+    <option value="Recharge">Recharge</option>
+  </select>
+  <button onclick="tambahData()">Simpan</button>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nama Barang</th>
+      <th>Lokasi</th>
+      <th>Keterangan Picking</th>
+    </tr>
+  </thead>
+  <tbody id="dataBarang"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
